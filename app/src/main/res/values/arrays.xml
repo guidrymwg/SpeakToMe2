@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="language">
+        <item>@string/USEnglish_label</item>
+        <item>@string/UKEnglish_label</item>
+        <item>@string/french_label</item>
+        <item>@string/german_label</item>
+        <item>@string/italian_label</item>
+    </string-array>
+
+</resources>

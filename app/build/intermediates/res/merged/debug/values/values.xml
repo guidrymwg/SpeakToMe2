@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language">
+        <item>@string/USEnglish_label</item>
+        <item>@string/UKEnglish_label</item>
+        <item>@string/french_label</item>
+        <item>@string/german_label</item>
+        <item>@string/italian_label</item>
+    </string-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="UKEnglish_label">British English</string>
+    <string name="USEnglish_label">U. S. English</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">SpeakToMe2</string>
+    <string name="changeLabel">New language</string>
+    <string name="clearLabel">Clear Text</string>
+    <string name="french_label">French</string>
+    <string name="german_label">German</string>
+    <string name="goLabel">Speak</string>
+    <string name="hello">SpeakToMe2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="italian_label">Italian</string>
+    <string name="langPrompt">Choose a language</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

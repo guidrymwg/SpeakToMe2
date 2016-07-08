@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpeakToMe2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello">SpeakToMe2</string>
+    <string name="goLabel">Speak</string>
+    <string name="clearLabel">Clear Text</string>
+    <string name="changeLabel">New language</string>
+    <string name="langPrompt">Choose a language</string>
+    <string name="french_label">French</string>
+    <string name="USEnglish_label">U. S. English</string>
+    <string name="UKEnglish_label">British English</string>
+    <string name="german_label">German</string>
+    <string name="italian_label">Italian</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <EditText
+	  	android:id="@+id/speak_input"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+
+	  	android:hint="(Enter text)"
+	  	android:inputType="text" />
+ 
+	 <LinearLayout 
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:orientation="horizontal">
+		  <Button 
+		  	android:id="@+id/speak_button"
+		  	android:layout_width="fill_parent"
+		  	android:layout_height="wrap_content"
+		  	android:layout_weight="1.0"
+		  	android:text="@string/goLabel" />
+		  <Button 
+		  	android:id="@+id/clear_button"
+		  	android:layout_width="fill_parent"
+		  	android:layout_height="wrap_content"
+		  	android:layout_weight="1.0"
+		  	android:text="@string/clearLabel" />
+	 </LinearLayout>
+	 
+	<LinearLayout 
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="fill_parent"
+	  	android:orientation="horizontal">
+	  	<Spinner android:id="@+id/langSpinner" 
+		  	android:layout_width="wrap_content" 
+		  	android:layout_height="wrap_content"
+		  	android:prompt="@string/langPrompt" >
+	  	</Spinner>
+	</LinearLayout>
+	 
+</LinearLayout>
