@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="23"
+    abi="x86_64,x86"
+    api-level="24"
     density="560dpi"
     format="7"
-    timestamp="616844495041461"
+    timestamp="10217826935529"
     token="-8385778708013340607" >
 
     <task
         name="javac"
-        duration="113" />
+        duration="176" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="33" />
+        duration="15" />
     <task
         name="verifier"
         duration="3" />
@@ -24,7 +24,7 @@
         location="/home/guidry/StudioProjects/SpeakToMe2/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="616844495041461" >
+    <build timestamp="10217826935529" >
         <artifact
             location="/home/guidry/StudioProjects/SpeakToMe2/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
